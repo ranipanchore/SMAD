@@ -1,0 +1,30 @@
+.signin-component{
+     margin-top: 10%;
+  }
+
+.form{
+   margin-top: 6%;
+  }
+
+  
+  input[type=text], input[type=submit]{
+   width: 20%;
+   padding:8px;
+   border-radius: 8px;
+  }
+  input[type=text]{
+   border: 1px solid #ddd;
+   color: #ddd;
+   font-size: 14px;
+  }
+  input[type=submit]{
+   background-color: rgb(45 136 212);
+   border: 1px solid rgb(45 136 212);
+  }
+  .singup_redirect{
+   padding: 16px 0px;
+   font-size: smaller;
+   font-weight: 800;
+  }
+
+ 
