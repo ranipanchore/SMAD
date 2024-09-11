@@ -1,6 +1,7 @@
 import Form from 'react-bootstrap/Form';
 import "./css/Signin.css";
 import { Link } from "react-router-dom";
+import Signup from './Signup';
 function Signin(){
     return(
       <div className='signin-component'>
@@ -16,10 +17,9 @@ function Signin(){
                     <input  type="text" placeholder='Enter password'/><br/><br/>
                     <input value='Login' type='submit'/>
                 </form>
-                    {/* <p className='singup_redirect'>Already have an account?  */}
-             
-                    <Link to="/signup">     sign up</Link>
-                        {/* </p> */}
+                   <p className='signup_redirect'>Already have an account?  
+                    <Link to={"Signup"}>  Signup</Link>
+                   </p>
                 </div>   
             </div>
        </div>
