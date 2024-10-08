@@ -1,0 +1,17 @@
+.top{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.top > button {
+    margin-left: 16px;
+    /* border-radius: 6px;
+    padding: 6px 40px;
+    background-color: #509cdb;
+    border: 1px soild #509cdb; */
+}
+
+.top > i {
+    font-size: larger;
+    padding-bottom: 10px;
+}

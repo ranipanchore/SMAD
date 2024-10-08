@@ -1,0 +1,33 @@
+.bd {
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.sidebar {
+    width: 15%;
+    height: 98vh;
+    min-height: 200px;
+    overflow: auto;
+    background-color: #152259;
+    color: #48793c;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    font-size: 25px;
+}
+/* .main {
+    width: 75%;
+    height: 200vh;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding-left: 10px;
+} */
+/* .header{
+     background-color:rgb(252 250 250)
+} */

@@ -1,20 +1,26 @@
-.signin-component{
-     margin-top: 10%;
-  }
 
-.form{
-   margin-top: 6%;
-  }
-
-  
-  input[type=text], input[type=submit]{
-   width: 20%;
+h1{
+   padding: 5%;
+}
+.h6{
+   line-height: 1.5;
+    font-weight: 700;
+    color: #ddd;
+}
+ input[type=text], input[type=submit]{
+   width: 70%;
    padding:8px;
    border-radius: 8px;
+   font-weight: 700;
+   color: #ddd;
   }
+  ::placeholder {
+   color: #ddd;
+  
+ }
   input[type=text]{
    border: 1px solid #ddd;
-   color: #ddd;
+   
    font-size: 14px;
   }
   input[type=submit]{
@@ -24,7 +30,106 @@
   .signup_redirect{
    padding: 16px 0px;
    font-size: smaller;
-   font-weight: 800;
+   font-weight: 700;
   }
 
- 
+  .form{
+   background-color: #fff;
+   width: 30%;
+   margin: auto;
+   /* padding: 5% 3%; */
+   border: 1px solid #d5c9c9;
+  }
+ .redirect_signup{
+   text-decoration: none;
+ }
+
+ /* Extra small devices (phones, 600px and down) */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+
+
+
+ /* Extra small devices (phones, 600px and down) */
+ @media all and (min-width:100px) and (max-width:600px)
+ {
+   .form {
+      width: 100%;
+   }
+ }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media all and (min-width:601px) and (max-width:767px)
+{
+   .form {
+      width: 100%;
+   }
+    h6 {
+      font-size: 1.2rem;
+    }
+   
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media all and (min-width:768px) and (max-width:990px)
+{
+   .form {
+      width: 70%;
+   }
+   h1 {
+      padding: 16%;
+   }
+   h6 {
+      font-size: 1.5rem;
+    }
+   input[type="text"], input[type="submit"] {
+      font-size: 1.2rem;
+  }
+  .signup_redirect {
+   font-size: 1.2rem;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media all and (min-width:990px) and (max-width:1198px)
+{
+   h1 {
+      padding: 16%;
+   }
+   .form {
+      width: 60%;
+   }
+   h6 {
+      font-size: 1.5rem !important;
+    }
+    input[type="text"], input[type="submit"] {
+      font-size: 1.2rem;
+  }
+  .signup_redirect {
+   font-size: 1.2rem;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media all and (min-width:1198px)
+{
+   
+   h1 {
+      padding: 4%;
+   }
+   .form {
+      /* width: 40%; */
+   }
+   h6 {
+      font-size: 1rem !important;
+    }
+    input[type="text"], input[type="submit"] {
+      font-size: 1rem;
+  }
+  .signup_redirect {
+   font-size: 1rem;
+  }
+}

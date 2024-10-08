@@ -1,0 +1,166 @@
+
+ .h6{
+    line-height: 1.5;
+     font-weight: 700;
+     color: #ddd;
+ }
+  input[type=text], input[type=submit], input[type="Password"]{
+    width: 70%;
+    padding:8px;
+    border-radius: 8px;
+    font-weight: 700;
+    color: #ddd;
+   }
+   ::placeholder {
+    color: #ddd;
+   
+  }
+   input[type=text]{
+    border: 1px solid #ddd;
+    
+    font-size: 14px;
+   }
+   input[type=submit]{
+    background-color: rgb(45 136 212);
+    border: 1px solid rgb(45 136 212);
+   }
+   .signup_redirect{
+    padding: 16px 0px;
+    font-size: smaller;
+    font-weight: 700;
+   }
+ 
+   .form{
+    background-color: #fff;
+    width: 30%;
+    margin: auto;
+    /* padding: 1%; */
+    border: 1px solid #d5c9c9;
+   }
+  .redirect_signup{
+    text-decoration: none;
+  }
+ 
+  /* Extra small devices (phones, 600px and down) */
+ 
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ 
+ 
+ 
+ 
+  /* Extra small devices (phones, 600px and down) */
+  @media all and (min-width:100px) and (max-width:600px)
+  {
+    .form {
+       width: 100%;
+    }
+  }
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media all and (min-width:601px) and (max-width:767px)
+ {
+    .form {
+       width: 100%;
+    }
+     h6 {
+       font-size: 1.2rem;
+     }
+    
+ }
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media all and (min-width:768px) and (max-width:990px)
+ {
+    .form {
+       width: 70%;
+    }
+    h1 {
+       padding: 16%;
+    }
+    h6 {
+       font-size: 1.5rem;
+     }
+    input[type="text"], input[type="submit"] {
+       font-size: 1.2rem;
+   }
+   .signup_redirect {
+    font-size: 1.2rem;
+   }
+ }
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media all and (min-width:990px) and (max-width:1198px)
+ {
+    h1 {
+       /* padding: 16%; */
+    }
+    .form {
+       width: 60%;
+    }
+    h6 {
+       font-size: 1.5rem !important;
+     }
+     input[type="text"], input[type="submit"] {
+       font-size: 1.2rem;
+   }
+   .signup_redirect {
+    font-size: 1.2rem;
+   }
+ }
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media all and (min-width:1198px)
+ {
+    
+    /* h1 {
+       padding: 4%;
+    } */
+    
+    h6 {
+       font-size: 1rem !important;
+     }
+     input[type="text"], input[type="submit"] {
+       font-size: 1rem;
+   }
+   .signup_redirect {
+    font-size: 1rem;
+   }
+ }
+
+
+ /* choose-password */
+
+ .primary{
+    padding: 12px 0px;
+    width: 70%;
+    border-radius: 16px;
+    border: 1px solid #ffffff;
+    background-color: blue;
+    color: #ddd;
+    font-weight: 900;
+    text-align: center;
+ }
+ form >div{
+    width: 50%;
+    text-align: left;
+    margin: 0px 0px 0px 82px;
+ }
+
+ .status-div{
+    display: flex;
+    width: 50%;
+    margin: 0px auto;
+    justify-content: space-between;
+    padding: 0px 6px;
+    margin-top: -12px;
+ }
+ #line{
+    width: 41%;
+    margin: auto;
+    margin-top: 30px;
+ }
+ .down-div{
+    
+ }
