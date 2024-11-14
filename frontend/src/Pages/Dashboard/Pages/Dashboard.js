@@ -11,12 +11,8 @@ import Teacher, { TeachTop } from "./Teacher/Teacher";
 
 function Dashboard() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
-    </Router>
+    
+    <Maindash/>
   );
 }
 
